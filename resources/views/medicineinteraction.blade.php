@@ -30,7 +30,7 @@
 <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.js"></script>
         
     </head>
-<body>
+<body class="bg-white dark:bg-gray-800">
     <!-- -----------------------------------------nav bar--------------------------------------------------------- -->
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

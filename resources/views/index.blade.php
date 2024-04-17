@@ -29,7 +29,7 @@
         
     </head>
 
-    <body class="antialiased">
+    <body class="bg-white dark:bg-gray-800">
 
 
 <!-- -----------------------------------------bottom message--------------------------------------------------------- -->
