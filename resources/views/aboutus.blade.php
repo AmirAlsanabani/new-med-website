@@ -305,7 +305,7 @@ themeToggleBtn.addEventListener('click', function() {
 </div>
 
  <!-- -----------------------------------------Information--------------------------------------------------------- -->
- <h1 class="text-5xl text-center py-8 text-white">عنا</h1>
+ <h1 class="text-5xl text-center py-8 text-white">صفحه عنا</h1>
  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
   <!-- -----------------------------------------about us--------------------------------------------------------- -->
 
@@ -453,6 +453,7 @@ themeToggleBtn.addEventListener('click', function() {
 <a>&nbsp</a>
 <a>&nbsp</a>
 <a>&nbsp</a>
+
 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">تطبيقات إدارة المشروع</h2>
 <div id="accordion-collapse2" data-accordion="collapse">
 <h2 id="accordion-collapse-heading-11">

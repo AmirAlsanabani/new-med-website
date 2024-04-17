@@ -146,6 +146,128 @@
 </nav>
 
 
+ <!-- -----------------------------------------breadcrumbs--------------------------------------------------------- -->
+ <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+ <div class="container mx-auto px-4">
+  <nav class="flex mb-4" aria-label="Breadcrumb">
+    <ol class="inline-flex items-center space-x-1 md:space-x-3 rtl:space-x-reverse">
+      <li class="inline-flex items-center">
+        <a href="index" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+          <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+          </svg>
+          الصفحه الرئيسيه
+        </a>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <svg class="w-3 h-3 text-gray-400 mx-1 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <a  class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white"> الاسئله الشائعه</a>
+        </div>
+      </li>
+
+    </ol>
+  </nav>
+</div>
+
+ <!-- -----------------------------------------Information--------------------------------------------------------- -->
+ <h1 class="text-5xl text-center py-8 text-white">صفحه الاسئله الشائعه</h1>
+ <p class="mb-3 text-center text-gray-500 dark:text-gray-400">هنا يمكنك العثور على جميع الأجوبة لأسلتك بحيث جمعنا هنا جميع التساؤلات و الصعوبات في الموقع في صفحه واحده</p>
+ <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+  <!-- -----------------------------------------Q&A--------------------------------------------------------- -->
+  <div class="max-w-screen-xl mr-20">
+  <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">الاسئله الشائعه</h2>
+<div id="accordion-collapse" data-accordion="collapse">
+<h2 id="accordion-collapse-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+      <span>دليل تسجيل الحسابات</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+
+      <p class="mb-2 text-gray-500 dark:text-gray-400">لارافيل هو إطار عمل PHP مفتوح المصدر لبناء تطبيقات الويب الحديثة بسهولة.</p>
+
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+      <span>دليل تفاعل المرض</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+
+      <p class="mb-2 text-gray-500 dark:text-gray-400">تايلويند سي إس إس (CSS) هو إطار عمل لغة تنسيق الويب يعتمد على الفائدة الأولى، ويتيح لك بناء واجهات ويب حديثة واستجابة بسهولة وبجهد أدنى.</p>
+
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+      <span>دليل تفاعل الطعام</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+
+      <p class="mb-2 text-gray-500 dark:text-gray-400">تعمل HTML و CSS معًا لإنشاء هيكل وتصميم صفحات الويب، وتوفر الأساس للويب الحديث.</p>
+
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-4">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+      <span>دليل تفاعل الدواء</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+
+      <p class="mb-2 text-gray-500 dark:text-gray-400">فيلامنت هي حزمة لوحة التحكم الإدارية تعزز العملية وتجعلها أسهل.</p>
+
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-5">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+      <span>دليل الآثار الجانبية</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+
+      <p class="mb-2 text-gray-500 dark:text-gray-400">ريليز هو مُولِّد كود PHP يساعد على تبسيط التفاعل مع قواعد البيانات في تطبيقات لارافيل. يقوم بإنشاء فئات النموذج بناءً على جداول قاعدة البيانات، مما يوفر طريقة سهلة وفعالة لأداء العمليات الأساسية (إنشاء، قرتحديث النص المترجم:</p>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
     <!-- -----------------------------------------footer--------------------------------------------------------- -->
     <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl">
