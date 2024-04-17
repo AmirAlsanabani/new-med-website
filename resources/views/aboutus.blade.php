@@ -275,6 +275,11 @@ themeToggleBtn.addEventListener('click', function() {
 </script>
 
  <!-- -----------------------------------------breadcrumbs--------------------------------------------------------- -->
+ <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
  <div class="container mx-auto px-4">
   <nav class="flex mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-3 rtl:space-x-reverse">
@@ -298,6 +303,192 @@ themeToggleBtn.addEventListener('click', function() {
     </ol>
   </nav>
 </div>
+
+ <!-- -----------------------------------------Information--------------------------------------------------------- -->
+ <h1 class="text-5xl text-center py-8 text-white">عنا</h1>
+ <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+  <!-- -----------------------------------------about us--------------------------------------------------------- -->
+
+  <div class="max-w-screen-xl mr-20">
+  <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">نبذه عن الموقع:</h2>
+  <p class="text-gray-500 dark:text-gray-400">نقدم لكم موسوعة الأدوية الشاملة، موقع الويب الذي يركز على توفير معلومات شاملة حول الأدوية، بما في ذلك تفاعلاتها مع الأدوية الأخرى والأمراض والطعام بطريقة سهلة للمستخدم،</p>
+  <p class="text-gray-500 dark:text-gray-400">في موسوعة الأدوية الشاملة، تتوفر ميزة البحث القوية في الموقع. ما عليك سوى إدخال اسم الدواء الذي ترغب في البحث عنه، وسينشئ الموقع تقريرًا مفصلاً يحتوي على جميع المعلومات الأساسية التي تحتاجها. يتم تقديم المعلومات بطريقة واضحة وموجزة، مما يجعلها سهلة الفهم للمستخدمين من جميع الخلفيات.</p>
+  <p class="text-gray-500 dark:text-gray-400">واحدة من الميزات المميزة لموسوعة الأدوية الشاملة هي محدد التفاعلات الدوائية الشامل. يتيح لك هذا الأداة إدخال عدة أدوية في وقت واحد وتوفير تحليل شامل للتفاعلات المحتملة بينها. تساعدك هذه الميزة القيمة على تحديد أي آثار جانبية أو تضادات قد تنشأ عند استخدام عدة أدوية معًا، مما يمكنك من اتخاذ قرارات مستنيرة بشأن خطة العلاج الخاصة بك.</p>
+  <p class="text-gray-500 dark:text-gray-400">بالإضافة إلى تفاعلات الأدوية، تقدم موسوعة الأدوية الشاملة ميزة فريدة تستكشف التفاعل بين الأدوية والأمراض المحددة. عند تحديد حالة طبية معينة، يمكنك اكتشاف كيف يمكن أن تتفاعل الأدوية المختلفة معها. تمنحك هذه الميزة القدرة على فهم المخاطر المحتملة أو الآثار الجانبية أو الفوائد من استخدام دواء معين لمرض معين، مما يتيح لك إجراء محادثات أكثر بصيرة مع مقدم الرعاية الصحية الخاص بك.</p>
+  <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+
+    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">تم تطوير هذا الموقع لتحقيق عدة أهداف رئيسية:</h2>
+    <ul class="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        <li>
+        البحث عن الأدوية وعرض المعلومات بطريقة سهلة للمستخدم.
+        </li>
+        <li>
+        التحقق من تفاعل الدواء مع الأمراض.
+        </li>
+        <li>
+        التحقق من تفاعل الدواء مع الطعام.
+        </li>
+        <li>
+        التحقق من تفاعل الدواء مع الأدوية الأخرى.
+        </li>
+        <li>
+        تمكين المستخدم من إضافة دوائه واستخراج جميع المعلومات التي يحتاجها حول الدواء.
+        </li>
+        <li>
+        تمكين المستخدم من إرسال آثاره الجانبية للجهة المناسبة للتقييم.
+        </li>
+    </ul>
+
+    <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+    <p class="text-gray-500 dark:text-gray-400">بنهاية عملية التطوير، قام الفريق ببناء مجموعة تقنية باستخدام عدة تقنيات شهيرة تتناسب مع متطلبات المشروع. تم تحليل كل تقنية بعناية للتأكد من ملاءمتها قبل دمجها في المجموعة التقنية. النتيجة هي بنية متماسكة ومرنة وقادرة تدعم المنصة.</p>
+    <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">اعترف فريق التطوير بعدة افتراضات ومخاطر يجب مراعاتها طوال دورة التطوير:</h2>
+    <ul class="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        <li>
+        موعد نهائي قصير.
+        </li>
+        <li>
+        قابلية التوسع للخدمة.
+        </li>
+        <li>
+        توافق المنتج مع السوق.
+        </li>
+        <li>
+        سلامة البيانات.
+        </li>
+        <li>
+        التعامل مع المحتوى والمراقبة.
+        </li>
+    </ul>
+    <a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">مجموعة التقنيات:</h2>
+<div id="accordion-collapse" data-accordion="collapse">
+<h2 id="accordion-collapse-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+      <span>لارافيل (Laravel)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">لارافيل هو إطار عمل PHP مفتوح المصدر لبناء تطبيقات الويب الحديثة بسهولة.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+      <span>تايلويند (Tailwind)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">تايلويند سي إس إس (CSS) هو إطار عمل لغة تنسيق الويب يعتمد على الفائدة الأولى، ويتيح لك بناء واجهات ويب حديثة واستجابة بسهولة وبجهد أدنى.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+      <span>HTML/CSS</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">تعمل HTML و CSS معًا لإنشاء هيكل وتصميم صفحات الويب، وتوفر الأساس للويب الحديث.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-4">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+      <span>فيلامنت (Filament)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">فيلامنت هي حزمة لوحة التحكم الإدارية تعزز العملية وتجعلها أسهل.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-5">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+      <span>ريليز (Reliese)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">ريليز هو مُولِّد كود PHP يساعد على تبسيط التفاعل مع قواعد البيانات في تطبيقات لارافيل. يقوم بإنشاء فئات النموذج بناءً على جداول قاعدة البيانات، مما يوفر طريقة سهلة وفعالة لأداء العمليات الأساسية (إنشاء، قرتحديث النص المترجم:</p>
+    </div>
+  </div>
+
+</div>
+
+
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">تطبيقات إدارة المشروع</h2>
+<div id="accordion-collapse2" data-accordion="collapse">
+<h2 id="accordion-collapse-heading-11">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-11" aria-expanded="false" aria-controls="accordion-collapse-body-11">
+      <span>Github (جيت هاب)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-11" class="hidden" aria-labelledby="accordion-collapse-heading-11">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">GitHub (جيت هاب) هي منصة على الويب توفر أدوات للتحكم في الإصدارات والتعاون للمطورين، مما يتيح لهم استضافة وإدارة ومشاركة مستودعاتهم البرمجية.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-22">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-22" aria-expanded="false" aria-controls="accordion-collapse-body-22">
+      <span>Google Drive (جوجل درايف)</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-22" class="hidden" aria-labelledby="accordion-collapse-heading-22">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">Google Drive (جوجل درايف) هي خدمة تخزين ومزامنة الملفات على السحابة التي تقدمها جوجل، مما يتيح للمستخدمين تخزين الملفات والوصول إليها ومشاركتها عبر الأجهزة. توفر ميزات مثل تحرير المستندات والتعاون والتكامل مع خدمات جوجل الأخرى.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
+<a>&nbsp</a>
     <!-- -----------------------------------------footer--------------------------------------------------------- -->
     <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl">
