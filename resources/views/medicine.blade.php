@@ -277,8 +277,8 @@ const searchInput = document.getElementById('search-navbar1');
 <h4>Warnings:</h4>
 <ul>
     @isset($medicine->medicine_warnings)
-        @foreach ($medicine->medicine_warnings as $medicineWarning)
-            <li>{{ $medicineWarning->description }}</li>
+        @foreach ($medicine->warnings as $medicineWarning)
+            <li>{{ $Warning->name }}</li>
         @endforeach
     @endisset
 </ul>
@@ -286,21 +286,24 @@ const searchInput = document.getElementById('search-navbar1');
 <h4>Illness Interactions:</h4>
 <ul>
     @foreach ($medicine->illness_interactions as $illnessInteraction)
-        <li>{{ $illnessInteraction->name }}</li>
+    <li>{{ $illnessInteraction->illness->name }}</li>
+    <li>{{ $illnessInteraction->description }}</li>
     @endforeach
 </ul>
 
 <h4>Medicine Interactions:</h4>
 <ul>
     @foreach ($medicine->medicine_interactions as $medicineInteraction)
-        <li>{{ $medicineInteraction->name }}</li>
+        <li>{{ $medicineInteraction->description}}</li>
     @endforeach
 </ul>
 
 <h4>Food Interactions:</h4>
 <ul>
     @foreach ($medicine->food_interactions as $foodInteraction)
-        <li>{{ $foodInteraction->name }}</li>
+    <li>{{ $foodInteraction->food->name }}</li>
+    <li>{{ $foodInteraction->description }}</li>
+
     @endforeach
 </ul>
 

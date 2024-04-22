@@ -104,6 +104,11 @@ class Medicine extends Model
 	{
 		return $this->hasMany(MedicineInteraction::class, 'medicine_id2');
 	}
+	
+	public function category()
+    {
+        return $this->belongsTo(MedicineCategory::class, 'category_id');
+    }
 
 	public function members()
 	{

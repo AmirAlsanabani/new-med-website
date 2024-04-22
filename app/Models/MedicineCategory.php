@@ -36,4 +36,5 @@ class MedicineCategory extends Model
 	{
 		return $this->hasMany(Medicine::class, 'category_id');
 	}
+	
 }

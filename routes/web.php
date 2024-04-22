@@ -8,7 +8,7 @@ use App\Models\Medicine;
 use Illuminate\Http\Request;
 use App\Mail\WebsiteFeedback;
 use Illuminate\Support\Facades\Mail;
-
+use App\Http\Controllers\MedicineCategoryController;
 
 
 
@@ -37,6 +37,8 @@ Route::get('/medicinesearch', 'App\Http\Controllers\SearchController@results')->
 
 Route::get('/medicine/{id}', 'App\Http\Controllers\MedicineController@show')->name('medicine.show');
 
+
+Route::post('/medicine/category', [MedicineController::class, 'category'])->name('medicine.category');
 
 
 /* 
