@@ -158,42 +158,55 @@
               </h1>
 
               <form id="signup-form" method="POST" action="{{ url('/submit-form') }}">
-              @csrf
+    @csrf
 
-                  <div class="mb-6">
-                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">الايميل</label>
-                      <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@outlook.com" required />
-                  </div> 
-                   <div class="mb-6">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">وصف العرض الجانبي</label>
-                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="كتابة جميع المعلومات المتاحة عن العرض الجانبي..."></textarea>
-                   </div>
-  
+    <div class="mb-6">
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+        <input type="email" id="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@outlook.com" required />
+    </div> 
 
-                   <div>
-         <button type="submit" class="w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:bg-blue-700">إرسال</button>
-        </div>
-    </form>
+    <div class="mb-6">
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+        <textarea id="message" name="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message..."></textarea>
+    </div>
+
+    <div>
+        <button type="submit" class="w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bgBlue-600 focus:outline-none focus:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:bg-blue-700">Submit</button>
+    </div>
+</form>
           </div>
       </div>
   </div>
 </section>
-
+<div id="response-message"></div>
 <script>
-  const form = document.getElementById('signup-form');
-  
-  form.addEventListener('submit', function(event) {
-    event.preventDefault();
-    
-    // Validate form inputs
-    if (form.checkValidity()) {
-      // Form is valid, proceed with submission
-      alert('Form submitted successfully!');
-    } else {
-      // Form is invalid, display error messages
-      form.reportValidity();
-    }
-  });
+const form = document.getElementById('signup-form');
+const responseMessage = document.getElementById('response-message');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  if (form.checkValidity()) {
+    // Form is valid, proceed with submission
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form)
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Display the response message
+      responseMessage.textContent = data.message;
+    })
+    .catch(error => {
+      console.error(error);
+      // Display an error message
+      responseMessage.textContent = 'An error occurred while sending the email.';
+    });
+  } else {
+    // Form is invalid, display error messages
+    form.reportValidity();
+  }
+});
   </script>
     <!-- -----------------------------------------footer--------------------------------------------------------- -->
     <footer class="bg-white dark:bg-gray-900">
