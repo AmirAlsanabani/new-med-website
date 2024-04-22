@@ -37,6 +37,17 @@ Route::get('/medicine/{id}', 'App\Http\Controllers\MedicineController@show')->na
 
 
 
+Route::post('/submit-form', function (Request $request) {
+    // Get the form data from the request
+    $email = $request->input('email');
+    $message = $request->input('message');
+
+    // Send the email
+    \Illuminate\Support\Facades\Mail::to('amiralsanbani@outlook.com')->send(new \App\Mail\WebsiteFeedback($email, $message));
+
+    // Return a response indicating success
+    return response()->json(['message' => 'Form submitted successfully']);
+});
 
 
 

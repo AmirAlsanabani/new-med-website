@@ -148,16 +148,17 @@
     <!-- -----------------------------------------feedback form--------------------------------------------------------- -->
     <section class="bg-gray-50 dark:bg-gray-900">
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-      <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+      <a href="/index" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
           موسوعة الأدوية الشاملة   
       </a>
       <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-2xl xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-              تسجيل حساب
+              للابلاغ عن خلل في الموقع
               </h1>
 
-              <form id="signup-form">
+              <form id="signup-form" method="POST" action="{{ url('/submit-form') }}">
+              @csrf
 
                   <div class="mb-6">
                       <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">الايميل</label>
@@ -169,10 +170,10 @@
                    </div>
   
 
-    <div>
-      <button type="submit" class="w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:bg-blue-700">إرسال</button>
-    </div>
-              </form>
+                   <div>
+         <button type="submit" class="w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:bg-blue-700">إرسال</button>
+        </div>
+    </form>
           </div>
       </div>
   </div>
