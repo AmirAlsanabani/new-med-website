@@ -276,9 +276,9 @@ const searchInput = document.getElementById('search-navbar1');
 
 <h4>Warnings:</h4>
 <ul>
-    @isset($medicine->medicine_warnings)
+    @isset($medicine->warnings)
         @foreach ($medicine->warnings as $medicineWarning)
-            <li>{{ $Warning->name }}</li>
+            <li>{{ $medicineWarning->description }}</li>
         @endforeach
     @endisset
 </ul>
@@ -294,7 +294,15 @@ const searchInput = document.getElementById('search-navbar1');
 <h4>Medicine Interactions:</h4>
 <ul>
     @foreach ($medicine->medicine_interactions as $medicineInteraction)
-        <li>{{ $medicineInteraction->description}}</li>
+        <li>
+            @php
+                $medicineId1 = $medicineInteraction->medicine_id1;
+                $medicine = \App\Models\Medicine::find($medicineId1);
+                $medicineName = $medicine ? $medicine->commercial_name : 'Unknown Medicine';
+            @endphp
+            {{ $medicineName }}
+        </li>
+        <li>{{ $medicineInteraction->severity_meter }}</li>
     @endforeach
 </ul>
 
